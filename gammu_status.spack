@@ -1,0 +1,12 @@
+● gammu-smsd.service - SMS daemon for Gammu
+   Loaded: loaded (/lib/systemd/system/gammu-smsd.service; enabled; vendor preset: enabled)
+   Active: active (running) since Jum 2017-04-07 22:06:24 WIB; 29min ago
+     Docs: man:gammu-smsd(1)
+  Process: 1419 ExecStart=/usr/bin/gammu-smsd --pid=/var/run/gammu-smsd.pid --daemon (code=exited, status=0/SUCCESS)
+ Main PID: 1435 (gammu-smsd)
+   CGroup: /system.slice/gammu-smsd.service
+           └─1435 /usr/bin/gammu-smsd --pid=/var/run/gammu-smsd.pid --daemon
+
+Apr 07 22:06:23 localhost systemd[1]: Starting SMS daemon for Gammu...
+Apr 07 22:06:24 localhost gammu-smsd[1419]: Log filename is "/var/log/gammulog"
+Apr 07 22:06:24 localhost systemd[1]: Started SMS daemon for Gammu.

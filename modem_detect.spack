@@ -1,0 +1,5 @@
+[    0.000000] console [tty0] enabled
+[   12.629342] systemd[1]: Created slice system-getty.slice.
+[ 8946.790373] usb 2-1.1: GSM modem (1-port) converter now attached to ttyUSB0
+[ 8946.790709] usb 2-1.1: GSM modem (1-port) converter now attached to ttyUSB1
+[ 8946.790992] usb 2-1.1: GSM modem (1-port) converter now attached to ttyUSB2
